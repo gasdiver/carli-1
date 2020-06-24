@@ -1,4 +1,0 @@
-# ArcoLinuxiso Carli 1
-
-
-
