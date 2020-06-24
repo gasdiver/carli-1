@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#carli
+sudo chgrp -R root airootfs/
+sudo chown -R root airootfs/
+
+
 set -e -u
 
 iso_name=archlinux
@@ -11,6 +16,7 @@ install_dir=arch
 work_dir=work
 out_dir=out
 gpg_key=
+
 
 
 #carli
