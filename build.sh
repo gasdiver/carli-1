@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#carli
-sudo chgrp -R root airootfs/
-sudo chown -R root airootfs/
-
-
 set -e -u
 
 iso_name=archlinux
@@ -17,10 +12,7 @@ work_dir=work
 out_dir=out
 gpg_key=
 
-
-
-#carli
-verbose="-V"
+verbose=""
 script_path=$(readlink -f ${0%/*})
 
 umask 0022
